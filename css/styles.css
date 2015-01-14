@@ -44,9 +44,17 @@ li {
 	list-style: none;
 }
 
+h1, h2, h3, h4 {
+	text-transform: uppercase;
+}
+
 h1, h2, h3, h4, a {
 	color: #121b6a;
 	font-family: 'Oswald', sans-serif;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 /* ----------------------------------------Layout */
@@ -149,12 +157,13 @@ h1.mainLogo {
 
 .mainNav {
 	margin: 0;
-	padding: 1.1em 0 0 0;
+	padding: 1.325em 0 0 0;
 }
 
 .secondNav {
-	margin: 0.675em 0 0 0;
+	margin: 0.75em 0.625em 0 0;
 	text-align: right;
+	letter-spacing: 5px;
 }
 
 .mainNav a {
@@ -179,9 +188,6 @@ h1.mainLogo {
 }
 
 
-
-
-
 /* ======================================
 				Product Content 
 ========================================= */
@@ -190,7 +196,90 @@ h1.mainLogo {
 	width: 45%;
 	padding: 2.5%;
 	float: left;
+	margin-top: 0.875em;
 }
+
+.sizing {
+	color: #1270cc;
+	font-size: 0.675em;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+}
+
+.bgImage {
+	background: url(../images/productbg.png);
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+.productName {
+	margin: 0;
+}
+
+.sugProducts p {
+	text-align: center;
+}
+
+.sugProducts {
+	float: left;
+	width: 50%;
+}
+
+.regPrice, .retailPrice, .discountPrice {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.retailPrice {
+	color: #838383;
+	text-decoration: line-through;
+}
+
+.discountPrice {
+	color: #ad1515;
+}
+
+.productDescription p {
+	line-height: 1.5;
+}
+
+.sug2 img {
+	padding-bottom: 4px;
+}
+
+/* ======================================
+				Footer
+========================================= */
+
+.siteFooter {
+	background: #1e2039;
+}
+
+.list {
+	display: inline-block;
+}
+
+.siteFooter a {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .75em;
+}
+
+.siteFooter p {
+	color: #fff;
+}
+
+.footerNav {
+	float: left;
+}
+
+.copyright {
+	float: right;
+}
+
 
 
 
