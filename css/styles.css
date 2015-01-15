@@ -197,6 +197,7 @@ h1.mainLogo {
 	padding: 2.5%;
 	float: left;
 	margin-top: 0.875em;
+	margin-bottom: 3em;
 }
 
 .sizing {
@@ -256,20 +257,29 @@ img {
 
 .siteFooter {
 	background: #1e2039;
+	letter-spacing: .3px;
+	padding: 1.25em 0 5em 0;
 }
 
 .list {
 	display: inline-block;
+	padding: 0;
+	margin-right: 4.375em;
+}
+
+.list li {
+	padding: .175em 0;
 }
 
 .siteFooter a {
-	color: #fff;
+	color: #B6B6BA;
 	font-family: 'Open Sans', sans-serif;
 	font-size: .75em;
 }
 
 .siteFooter p {
-	color: #fff;
+	color: #B6B6BA;
+	margin: 0;
 }
 
 .footerNav {
